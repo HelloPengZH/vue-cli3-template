@@ -1,2 +1,2 @@
-/build merge=ours
-package.json merge=ours
+
+/src/styles/ merge=ours
