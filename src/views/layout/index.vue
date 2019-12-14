@@ -1,15 +1,19 @@
 <template>
   <div id="pzh-layout-app">
-	  测试
+    <card-input></card-input>
   </div>
 </template>
 <script>
-export default {};
+import cardInput from './cardInput';
+export default {
+  components:{cardInput}
+};
 </script>
 <style lang="less" scoped>
 #pzh-layout-page {
   width: 100vw;
   height: 100vh;
+  display: flex;
 }
 </style>
 <style>

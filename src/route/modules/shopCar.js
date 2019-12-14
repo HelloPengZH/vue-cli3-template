@@ -1,6 +1,6 @@
 import _import from '../_import'
 export default {
-	path: 'shopCar',
+	path: '/shopCar',
     name: 'shopCar',
     redirect: {name:"car"},
     component:_import('/shopCar'),
